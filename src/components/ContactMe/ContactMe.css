@@ -151,14 +151,9 @@
         line-height: 1rem;
     }
     .form{
-        width: 100dvw;
+        width: 90dvw;
     }
     .form h3{
         font-size: 2rem;
-    }
-}
-@media (max-width: 350px){
-    .form{
-        width: 80vw;
     }
 }
