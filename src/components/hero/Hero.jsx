@@ -43,7 +43,7 @@ const Hero=()=>{
                 <button className="CVBtn" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Download CV <img src="../assets/images/dwnldiconwhite.png" alt="" /></button>
             </div>
             <div className="heroImg" onMouseEnter={handleMouseEnterr} onMouseLeave={handleMouseLeave}>
-                <img className="me" src="./assets/images/me0055.png" alt="" />
+                <img className="me" src="../assets/images/me0055.png" alt="" />
             </div>
         </section>
     )
