@@ -16,7 +16,7 @@ const About=()=>{
         <section className="aboutContainer" id="About">
             <h2 >About <span className="me">me</span></h2>
             <div className="aboutImg" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <img className="me" src="./portfolio/assets/images/me2.png" alt="" />
+                <img className="me" src="../portfolio/assets/images/me2.png" alt="" />
                 <span className="circul"></span>
             </div>
             <div className="aboutContent">
