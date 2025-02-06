@@ -1,0 +1,13 @@
+.mouse-circle {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Make the circle semi-visible */
+    border-radius: 50%;
+    pointer-events: none;
+    /* box-shadow: 0px 0px 800px 190px rgb(0, 157, 255, .20); */
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+

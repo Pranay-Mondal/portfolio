@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: linear-gradient(90deg,rgb(81, 162, 212) 0%,rgb(0, 157, 255) 100%);
+    --secondary-color: rgb(0, 157, 255);
+    --bg-1: rgb(3, 36, 58);
+    --bg-2: rgb(14 50 75);
+    --primary-text: white;
+    --secondary-text: white;
+}
+.body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+html{
+    cursor: none;
+}
+.container{
+    width:auto;
+    height: auto;
+    position: relative;
+}
+@media (max-width: 1300px){
+    .body{
+        padding: 0 1rem;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}

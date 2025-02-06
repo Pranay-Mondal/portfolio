@@ -1,0 +1,121 @@
+.aboutContainer{
+    width: 100vw;
+    background-color: rgb(2, 26, 42);
+    display: flex;
+    padding: 15vh 6vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.aboutContainer h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom:4rem;
+}
+.me{
+    color: rgb(0, 157, 255);
+}
+.aboutImg{
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: .2rem solid rgb(0, 157, 255);
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.aboutImg img{
+    height: 270px;
+    width: auto;
+    filter: drop-shadow(0px 0px 10px rgb(0, 157, 255));
+    border-radius: 40%;
+    z-index: 7;
+    transition: all 0.3s ease;
+}
+.aboutImg :hover{
+    height: 290px;
+    cursor: pointer;
+    width: auto;
+}
+.circul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 113%;
+    height: 113%;
+    transform: translate(-50%,-50%) rotate(0); 
+    border-radius: 50%;
+    border-top: .2rem solid rgb(0, 157, 255);
+    border-bottom: .2rem solid rgb(0, 157, 255);
+    border-left: .2rem solid transparent;
+    border-right: .2rem solid transparent;
+    animation: spin 8s linear infinite;
+    transition: all 0.3s ease;
+    z-index: 9;
+}
+.circul:hover{
+    width: 120%;
+    height: 120%;
+}
+.aboutContent{
+    text-align: center;
+    align-items: center;
+}
+.aboutContent h3{
+    font-size: 2.4rem;
+}
+.aboutContent p{
+    width: 60vw;
+    font-size: 18px;
+    margin: 2rem 0 3rem;
+}
+.readtBtn{
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(90deg,rgb(81, 162, 212) 0%,rgb(0, 157, 255) 100%);
+    padding: 0.6rem 2rem;
+    outline: 1.5px solid transparent;
+    border-radius: 2.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.readtBtn:hover{
+    color: rgb(0, 157, 255);
+    background: rgb(3, 36, 58);
+    outline: 1.5px solid rgb(0, 157, 255);
+    box-shadow: 0 0 10px rgb(0, 157, 255);
+}
+@keyframes spin{
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+@media screen and (max-width: 600px){
+    .aboutContainer h2{
+        font-size: 2.5rem;
+        line-height: 1rem;
+    }
+    .aboutImg{
+        height: 200px;
+        width: 200px;
+    }
+    .aboutImg img{
+        height: 170px;
+        width: auto;
+    }
+    .aboutContent h3{
+        font-size: 2rem;
+    }
+    .aboutContent p{
+        width: 90vw;
+        font-size: 18px;
+        margin: 2rem 0 3rem;
+    }
+}

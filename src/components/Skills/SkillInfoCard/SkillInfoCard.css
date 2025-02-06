@@ -1,0 +1,43 @@
+.skill-Info-Card{
+    background: rgb(2, 26, 42);
+    border-radius: 1rem;
+    border: .1rem solid var(--secondary-color);
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+.skill-Info-Card h5{
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    color: var(--secondary-color);
+    border-bottom: .1rem solid var(--secondary-color);
+}
+.skill-info-content{
+    padding: 2rem;
+}
+.skill-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill-info p{
+    font-size: 1rem;
+}
+.skill-info .persntg{font-weight: 600;
+    color: var(--secondary-color);
+}
+.skill-progress-bg{
+    width: 100%;
+    height: .5rem;
+    background: var(--bg-2);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.skill-progress{
+    width: 0%;
+    height: .5rem;
+    background: var(--secondary-color);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+
+}

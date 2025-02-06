@@ -1,0 +1,86 @@
+.portfolioContainer{
+    display: flex;
+    padding: 15vh 6vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.portfolioContainer h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+.portfolioContainer h2 span{
+    color: var(--secondary-color);
+}
+.projectsContainer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.portfolioItems{
+    width: 25rem;
+    z-index: 2;
+    position: relative;
+    background: rgb(2, 26, 42);
+    padding: 1rem;
+    border: .1rem solid var(--secondary-color);
+    border-radius: 2rem;
+    /* transition: all 0.3s ease-in-out; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portfolioItems:hover{
+    transform: translateY(-10px) scale(1.05); /* Moves the card up slightly and scales it */
+    box-shadow: 0 10px 20px rgb(0, 157, 255, 0.35);
+}
+.portfolioItems img{
+    height: 12.8rem;
+    border-radius: 1rem;
+    width: auto;
+} 
+.portfolioItems h3{
+    margin: 10px 10px;
+} 
+.portfolioItems p{
+    margin: 0px 10px;
+} 
+.hvr{
+    position: absolute;
+    right: 2rem;
+    bottom: 0.7rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.hvr img{
+    width: 4rem;
+    height: auto;
+}
+.hvr a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--primary-color);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.portfolioItems:hover .hvr{
+    opacity: 1;
+    bottom: 9rem;
+}
+.hvr a:hover{
+    background: var(--bg-1);
+    border: .1rem solid var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+@media screen and (max-width: 600px){
+    .portfolioContainer h2{
+        font-size: 2.5rem;
+    }
+}
