@@ -7,7 +7,7 @@
     pointer-events: none;
     /* box-shadow: 0px 0px 800px 190px rgb(0, 157, 255, .20); */
     transform: translate(-50%, -50%);
-    z-index: 99999;
+    z-index: 999999999;
     transition: width 0.3s ease, height 0.3s ease;
 }
 

@@ -19,7 +19,7 @@ const ContactMe=()=>{
                 <div className="info autoShowR">
                     <div className="infoall" >
                         <div className="icon">
-                            <img src="../assets/images/phone-call.png" alt="" />
+                            <img src="../portfolio/assets/images/phone-call.png" alt="" />
                         </div>
                         <div className="text">
                             <h3>Phone</h3>
@@ -28,7 +28,7 @@ const ContactMe=()=>{
                     </div>
                     <div className="infoall" >
                         <div className="icon">
-                            <img src="../assets/images/email.png" alt="" />
+                            <img src="../portfolio/assets/images/email.png" alt="" />
                         </div>
                         <div className="text">
                             <h3>Email</h3>
@@ -37,7 +37,7 @@ const ContactMe=()=>{
                     </div>
                     <div className="infoall" >
                         <div className="icon">
-                            <img src="../assets/images/location.png" alt="" />
+                            <img src="../portfolio/assets/images/location.png" alt="" />
                         </div>
                         <div className="text">
                             <h3>Address</h3>

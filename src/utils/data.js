@@ -1,7 +1,7 @@
 export const SKILLS=[
     {
         title: "Language",
-        icon: "./assets/images/pro-lang.png",
+        icon: "./portfolio/assets/images/pro-lang.png",
         skills:[
             { skill:"HTML", persntg:"70%" },
             { skill:"CSS", persntg:"60%" },
@@ -15,7 +15,7 @@ export const SKILLS=[
     },
     {
         title: "Tools",
-        icon: "./assets/images/technical-skl.png",
+        icon: "./portfolio/assets/images/technical-skl.png",
         skills:[
             { skill:"React.js", persntg:"60%" },
             { skill:"Node.js", persntg:"65%" },
@@ -29,7 +29,7 @@ export const SKILLS=[
     },
     {
         title: "Soft skills",
-        icon: "./assets/images/soft-skl.png",
+        icon: "./portfolio/assets/images/soft-skl.png",
         skills:[
             { skill:"Problem-solving", persntg:"80%" },
             { skill:"Comunication", persntg:"60%" },

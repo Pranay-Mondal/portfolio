@@ -24,7 +24,7 @@ const Navbar=()=>{
             <MobileNav isOpen={menuTogle} togleMenu={togleMenu}/>
             <nav className="navWrapper">
                 <div className="navContent">
-                    <a><img onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="logo" src="./assets/images/logo2.png" alt="" /></a>
+                    <a><img onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="logo" src="./portfolio/assets/images/logo2.png" alt="" /></a>
                     <ul>
                         <li><a className="menuItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="#Home">Home</a></li>
                         <li><a className="menuItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="#About">About</a></li>
@@ -34,13 +34,13 @@ const Navbar=()=>{
                         <li><a className="menuItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="#Contact">Contact me</a></li>
                         {/* <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="contactBtn">Hire me</button> */}
                     </ul>
-                    <img onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="menuBtn" src="./assets/images/hamburger.svg" 
+                    <img onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="menuBtn" src="./portfolio/assets/images/hamburger.svg" 
                     onClick={(e)=>{
                         if(menuTogle){
-                            e.target.src="./assets/images/hamburger.svg"
+                            e.target.src="./portfolio/assets/images/hamburger.svg"
                         }
                         else{
-                            e.target.src="./assets/images/crosswhite.png"
+                            e.target.src="./portfolio/assets/images/crosswhite.png"
                         }
                         togleMenu()
                     }}/>

@@ -128,29 +128,29 @@ const Portfolio = () => {
             <h4>My recent projects</h4>
             <div className="projectsContainer">
                 <article className="portfolioItems" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/assets/images/sptfyportfolio.png" alt="" />
+                    <img src="/portfolio/assets/images/sptfyportfolio.png" alt="" />
                     <h3>Spotify Clone</h3>
                     <p>A Spotify-inspired web app that allows users to play music and explore albums.</p>
                     <div className="hvr">
-                        <a href=""><img src="../assets/images/githubw.png" alt="" /></a>
+                        <a href=""><img src="../portfolio/assets/images/githubw.png" alt="" /></a>
                     </div>
                 </article>
 
                 <article className="portfolioItems" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/assets/images/shiportfolio.png" alt="" />
+                    <img src="/portfolio/assets/images/shiportfolio.png" alt="" />
                     <h3>Shay Hi</h3>
                     <p>A real-time messaging app where users can create profiles, add friends, and chat seamlessly.</p>
                     <div className="hvr">
-                        <a href=""><img src="../assets/images/githubw.png" alt="" /></a>
+                        <a href=""><img src="../portfolio/assets/images/githubw.png" alt="" /></a>
                     </div>
                 </article>
 
                 <article className="portfolioItems" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/assets/images/tttportfolio.png" alt="" />
+                    <img src="/portfolio/assets/images/tttportfolio.png" alt="" />
                     <h3>Tic Tac Toe Game</h3>
                     <p>A feature-rich Tic Tac Toe game with options to play against friends, an easy AI, or a hard AI, complete with sound effects.</p>
                     <div className="hvr">
-                        <a href=""><img src="../assets/images/githubw.png" alt="" /></a>
+                        <a href=""><img src="../portfolio/assets/images/githubw.png" alt="" /></a>
                     </div>
                 </article>
             </div>

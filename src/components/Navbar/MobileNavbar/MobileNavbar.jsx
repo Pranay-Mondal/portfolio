@@ -16,7 +16,7 @@ const MobileNav=({isOpen,togleMenu})=>{
         <>
         <div className={`mobileMenu ${isOpen ?"active" : ""}`}>
             <div className="mobMenuContainer">
-            <img className="logo" src="./assets/images/logo2.png" alt="" />
+            <img className="logo" src="./portfolio/assets/images/logo2.png" alt="" />
                 <ul>
                         <li><a className="menuItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="#Home">Home</a></li>
                         <li><a className="menuItem" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="#About">About</a></li>

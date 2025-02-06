@@ -35,15 +35,15 @@ const Hero=()=>{
                     Passionate Frontend Developer | Transforming Ideas into Semless and Visually Stunning Web Solution
                 </p>
                 <div className="socialMesia">
-                    <a className="x" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href=""><img src="../assets/images/twitter11.svg" alt="" /></a>
-                    <a className="insta" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://www.instagram.com/pranay_ml_55/" target="_blank"><img src="../assets/images/instagram1.svg" alt="" /></a>
-                    <a className="linked" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://www.linkedin.com/in/pranay-mondal-70762b2b3/" target="_blank"><img src="../assets/images/linkedin1.svg" alt="" /></a>
-                    <a className="leetc" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://leetcode.com/u/pranayml0912/" target="_blank"><img src="../assets/images/leetcode1.svg" alt="" /></a>
+                    <a className="x" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href=""><img src="../portfolio/assets/images/twitter11.svg" alt="" /></a>
+                    <a className="insta" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://www.instagram.com/pranay_ml_55/" target="_blank"><img src="../portfolio/assets/images/instagram1.svg" alt="" /></a>
+                    <a className="linked" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://www.linkedin.com/in/pranay-mondal-70762b2b3/" target="_blank"><img src="../portfolio/assets/images/linkedin1.svg" alt="" /></a>
+                    <a className="leetc" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://leetcode.com/u/pranayml0912/" target="_blank"><img src="../portfolio/assets/images/leetcode1.svg" alt="" /></a>
                 </div>
                 <button className="CVBtn" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Download CV <img src="../assets/images/dwnldiconwhite.png" alt="" /></button>
             </div>
             <div className="heroImg" onMouseEnter={handleMouseEnterr} onMouseLeave={handleMouseLeave}>
-                <img className="me" src="../assets/images/me0055.png" alt="" />
+                <img className="me" src="/portfolio/assets/images/me0055.png" alt="my image" />
             </div>
         </section>
     )
