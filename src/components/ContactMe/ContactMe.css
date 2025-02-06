@@ -5,7 +5,7 @@
     gap: 10rem;
 }
 .ContactContainer{
-    width: 100%;
+    width: 100dvw;
     background-color: rgb(2, 26, 42);
     display: flex;
     padding: 15vh 6vw;
@@ -151,9 +151,14 @@
         line-height: 1rem;
     }
     .form{
-        width: 100%;
+        width: 100dvw;
     }
     .form h3{
         font-size: 2rem;
+    }
+}
+@media (max-width: 350px){
+    .form{
+        width: 80vw;
     }
 }
