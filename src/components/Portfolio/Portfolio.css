@@ -1,4 +1,4 @@
-.portfolioContainer{
+/* .portfolioContainer{
     display: flex;
     padding: 15vh 6vw;
     position: relative;
@@ -30,11 +30,10 @@
     padding: 1rem;
     border: .1rem solid var(--secondary-color);
     border-radius: 2rem;
-    /* transition: all 0.3s ease-in-out; */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .portfolioItems:hover{
-    transform: translateY(-10px) scale(1.05); /* Moves the card up slightly and scales it */
+    transform: translateY(-10px) scale(1.05);
     box-shadow: 0 10px 20px rgb(0, 157, 255, 0.35);
 }
 .portfolioItems img{
@@ -83,4 +82,4 @@
     .portfolioContainer h2{
         font-size: 2.5rem;
     }
-}
+} */

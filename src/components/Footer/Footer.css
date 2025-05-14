@@ -1,7 +1,7 @@
 .footerContainer{
+    background-color: #041222;
     display: flex;
     justify-content: center;
-    margin: 10px;
     align-items: center;
     flex-direction: column;
 }

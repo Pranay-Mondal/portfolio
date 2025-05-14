@@ -10,10 +10,12 @@ import ContactMe from "./components/ContactMe/ContactMe"
 import Footer from "./components/Footer/Footer"
 import MouseCircle from "./components/MousEfects/MousEfacts";
 import { MouseProvider } from "./components/MouseContext/MouseContext";
+import VantaBackground from "./components/Vanta/VantaBackground";
 
 function App() {
   return (
     <> 
+    <VantaBackground />
     <MouseProvider>
     <MouseCircle />
       <Navbar/>

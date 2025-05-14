@@ -1,13 +1,14 @@
-
 {
   "homepage": "https://Pranay-Mondal.github.io/portfolio",
   "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^12.10.5",
     "lottie-react": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -15,7 +16,10 @@
     "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "react-tsparticles": "^2.12.2",
+    "sass": "^1.87.0",
     "stats.js": "^0.17.0",
+    "three": "^0.176.0",
+    "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,6 +1,6 @@
 .educationContainer{
     width: 100vw;
-    background-color: rgb(2, 26, 42);
+    background-color: transparent;
     display: flex;
     padding: 15vh 6vw;
     position: relative;
@@ -82,6 +82,7 @@ span{
 }
 .timeline-content{
     margin: 0.5rem 1.5rem;
+    background-color: #041222;
     border: .1rem solid var(--secondary-color);
     padding: 1rem;
     border-radius: 1rem;

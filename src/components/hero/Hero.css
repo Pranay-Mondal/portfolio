@@ -52,6 +52,9 @@
     transition: all 0.3s ease;
     animation: profile_animate 8s ease-in-out infinite 1s;
 }
+.cvDownload{
+    text-decoration: none;
+}
 @keyframes profile_animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

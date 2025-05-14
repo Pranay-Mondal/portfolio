@@ -3,7 +3,7 @@
     border: .1rem solid var(--secondary-color);
     padding: 2.5rem;
     text-align: center;
-    background: rgb(2, 26, 42);
+    background: #041222;
     align-items: center;
     backdrop-filter: blur(1rem);
     position: relative;

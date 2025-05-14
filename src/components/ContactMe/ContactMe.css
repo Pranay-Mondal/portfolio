@@ -6,7 +6,7 @@
 }
 .ContactContainer{
     width: 100dvw;
-    background-color: rgb(2, 26, 42);
+    background-color: transparent;
     display: flex;
     padding: 15vh 6vw;
     position: relative;
@@ -43,9 +43,9 @@
     border-radius: 8px;
     cursor: none;
     width: 35%;
+    background: #041222;
     border: .1rem solid rgb(0, 157, 255);
     border-radius: 20px;
-    background: transparent;
 }
 .form h3{
     color: rgb(0, 157, 255);
@@ -74,6 +74,7 @@
     background: rgb(3, 36, 58);
     border: .1rem solid rgb(0, 157, 255);
     border-radius: 8px;
+    color: white;
     padding: 10px;
 }
 .CVBtn{

@@ -1,5 +1,5 @@
 .skill-Info-Card{
-    background: rgb(2, 26, 42);
+    background: #041222;
     border-radius: 1rem;
     border: .1rem solid var(--secondary-color);
     transition: all 0.3s ease;

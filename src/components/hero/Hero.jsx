@@ -40,7 +40,7 @@ const Hero=()=>{
                     <a className="linked" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://www.linkedin.com/in/pranay-mondal-70762b2b3/" target="_blank"><img src="../portfolio/assets/images/linkedin1.svg" alt="" /></a>
                     <a className="leetc" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} href="https://leetcode.com/u/pranayml0912/" target="_blank"><img src="../portfolio/assets/images/leetcode1.svg" alt="" /></a>
                 </div>
-                <button className="CVBtn" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Download CV <img src="../assets/images/dwnldiconwhite.png" alt="" /></button>
+                <a href="../assets/cv.pdf" download className="cvDownload"><button className="CVBtn" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Download CV <img src="../assets/images/dwnldiconwhite.png" alt="" /></button></a>
             </div>
             <div className="heroImg" onMouseEnter={handleMouseEnterr} onMouseLeave={handleMouseLeave}>
                 <img className="me" src="/portfolio/assets/images/me0055.png" alt="my image" />
