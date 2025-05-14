@@ -51,9 +51,9 @@ const ContactMe=()=>{
                         <p>Let's create something amazing together. Share your thoughts or inquiries—we're just a message away!</p>
                         <div className="input">
                             <form action="https://formsubmit.co/pranay83910@gmail.com" method="POST" className="input">
-                                <input type="name" placeholder="Name" />
-                                <input type="email" placeholder="Email address" />
-                                <textarea name="" id="" cols={40} rows={7} placeholder="massege"></textarea>
+                                <input type="text" name="name" placeholder="Name" required/>
+                                <input type="email" name="email" placeholder="Email address" required/>
+                                <textarea name="message" id="" cols={40} rows={7} placeholder="massege" required></textarea>
                                 <button className="CVBtn">Send massege</button>
                             </form>
                         </div>
